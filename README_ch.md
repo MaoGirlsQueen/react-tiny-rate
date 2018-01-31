@@ -1,11 +1,11 @@
 # React Tiny Rate
 
 
-> The Smallest Rating Component for React
+> 最小的React评级组件
 
 
 
-## based one line rate component function
+## 基于[一行代码写评级组件](https://www.zhihu.com/question/46943112/answer/113583615)
 
 ```js
 function rate(num){
@@ -16,29 +16,23 @@ rate(3)   // "★★★☆☆"
 ```
 
 
-## Features
+## 功能
 
-* based ☆ and ★
-* support float such as 3.5  4.7
-* theme
-* animate
-* size
+* 基于☆ 和 ★
+* 支持小数评级 比如3.5  4.7
+* 主题颜色配置
+* 动画效果
+* 星星大小
 
+## 安装和使用
 
-## Translation
-
-  - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) [Chinese (Simplified)](./README_ch.md)
-
-
-## Installation and usage
-
-Once, install rate component for your project
+先从npm安装到项目里
 
 ```bash
 npm install react-tiny-rate --save
 ```
 
-Import react-tiny-rate into your app
+在项目里导入Rate组件
 
 ```javascript
 import React from 'react';
@@ -48,7 +42,7 @@ import Rate from 'react-tiny-rate'
 ReactDOM.render(<Rate />, document.getElementById('root'));
 ```
 
-Use HTML template in JSX
+HTML里使用
 
 ```html
 <Rate />
@@ -56,9 +50,9 @@ Use HTML template in JSX
 ![](http://image.shengxinjing.cn/rate/00.png)
 
 
-## Options from props
+## 配置项
 
-- `value {number|string}` : Star value `default:0`
+- `value {number|string}` : 评几星，支持小数 `默认:0`
 
 ```html
 <Rate value="0.5"></Rate>
@@ -67,7 +61,9 @@ Use HTML template in JSX
 ```
 ![](http://image.shengxinjing.cn/rate/01.png)
 
-- `readonly {boolean}` : Rate read-only. `default:false`
+
+
+- `readonly {boolean}` : 是否是只读. `default:false`
 
 ```html
 <Rate value="0.5"></Rate>
@@ -76,7 +72,7 @@ Use HTML template in JSX
 ```
 ![](http://image.shengxinjing.cn/rate/01.gif)
 
-- `length {number|string}` : Star size `default:5`
+- `length {number|string}` : 一共几个星 `默认:5`
 
 ```html
 <Rate value="2" length="4"></Rate>
@@ -86,7 +82,7 @@ Use HTML template in JSX
 ![](http://image.shengxinjing.cn/rate/02.png)
 
 
-- `theme {color|enum('yellow','green','blue','red','purple','orange','black','wihte')}`: Star color. `default: yellow`
+- `theme {color|enum('yellow','green','blue','red','purple','orange','black','wihte')}`: 主题色. `默认: yellow`
 
 ```html
 <Rate value="4.5">Yellow</Rate>
@@ -103,7 +99,7 @@ Use HTML template in JSX
 ![](http://image.shengxinjing.cn/rate/03.png)
 
 
-- `size {number|string}`: Rate size. 
+- `size {number|string}`: 星星的大小. 
 
 ```html
 <Rate value="4.5" size='12px'>12px</Rate>
@@ -115,7 +111,7 @@ Use HTML template in JSX
 ![](http://image.shengxinjing.cn/rate/04.png)
 
 
-- `animate {number|string}`: Rate animate duration. `default:0`
+- `animate {number|string}`: 是否有动画. `default:0`
 
 ```html
 <Rate value="3.5" animate='1'>1s</Rate>
@@ -124,10 +120,10 @@ Use HTML template in JSX
 ```
 ![](http://image.shengxinjing.cn/rate/05.gif)
 
-
 ## Events
 
-- `onRate`: Rate select callback. 
+- `onRate`: 选中星级后的评价. 
+
 
 
 ```javascript
@@ -152,8 +148,8 @@ class App extends React.Component{
 ReactDOM.render(<App />, document.getElementById('root'));
 
 ```
-
 ![](http://image.shengxinjing.cn/rate/06.gif)
+
 
 ## License
 

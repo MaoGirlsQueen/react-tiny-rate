@@ -1,0 +1,33 @@
+{
+  "name": "react-tiny-rate",
+  "version": "0.1.5",
+  "description": "the smallest rating component  for React",
+  "main": "Rate.js",
+  "scripts": {
+    "build":"babel Rate.jsx --out-file Rate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shengxinjing/react-tiny-rate"
+  },
+  "keywords": [
+    "react",
+    "rate",
+    "component"
+  ],
+  "author": "shengxinjing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shengxinjing/react-tiny-rate/issues"
+  },
+  "homepage": "https://github.com/shengxinjing/react-tiny-rate",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0"
+  },
+  "dependencies": {}
+}
