@@ -156,6 +156,11 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ![](http://image.shengxinjing.cn/rate/06.gif)
 
+## Link
+* [tiny-rate](https://github.com/shengxinjing/tiny-rate)
+* [vue-tiny-rate](https://github.com/shengxinjing/vue-tiny-rate)
+
+
 ## License
 
 MIT.

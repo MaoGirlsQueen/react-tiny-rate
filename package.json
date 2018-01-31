@@ -1,10 +1,10 @@
 {
   "name": "react-tiny-rate",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "the smallest rating component  for React",
   "main": "Rate.js",
   "scripts": {
-    "build":"babel Rate.jsx --out-file Rate.js",
+    "build": "babel Rate.jsx --out-file Rate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +29,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tiny-rate": "^0.1.0"
+  }
 }
