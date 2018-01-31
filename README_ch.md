@@ -1,4 +1,5 @@
 # React Tiny Rate
+[![npm](https://img.shields.io/npm/dm/react-tiny-rate.svg)](https://www.npmjs.com/package/react-tiny-rate)
 
 
 > 最小的React评级组件
